@@ -1,6 +1,272 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        Hello World.
+    <head>
+        <title>Portfolio | Seniatical</title>
+
+        <meta property="og:title" content="Portfolio | Seniatical" />
+        <meta property="og:description" content="Welcome to my portfolio, this is were you can view all my projects and see what im capable of!" />
+        <meta property="og:url" content="https://Seniatical.github.io/" />
+        <meta property="og:locale" content="en_GB" />
+        <link rel="shortcut icon" type="image/png" href="./assets/Profile.png" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8" />
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+        <link href="./css/styles.css" rel="stylesheet">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    </head>
+
+    <body class="d-flex flex-column h-100" data-bs-spy="scroll" data-bs-target="#NavBar">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="NavBar">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-3 text fw-bolder" href="#">Seniatical</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item" id="NavHome">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item" id="NavAbout">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item" id="NavProject">
+                            <a class="nav-link" href="#contributions">Works</a>
+                        </li>
+                        <li class="nav-item" id="NavTool">
+                            <a class="nav-link" href="#tools">Tools</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="flex-shrink-0">
+            <section id="particles-js" class="main-area row" id="home">
+
+                <div style="position: absolute;">
+                    <div class="text-center">
+                        <h1 class="text-white display-2 fw-bold text">Hi, I'm Seniatical.</h1>
+                        <span class="text-white fs-5 text">I'm a</span><span id="TypeWriter" class="type-effect text-white fs-5 text"></span>
+                        <div style="padding-top: 20px;">
+                            <a href="https://github.com/Seniatical" class="link">
+                                <i class="fa-brands fa-github text-white fa-2xl"></i>
+                            </a>
+                        </div>
+                    <div>
+                </div>
+            </section>
+
+            <section class="row justify-content-center" style="padding-bottom: 20px; padding-top: 10px;" id="about">
+                <div class="col-md-7">
+                    <div class="card text-white bg-dark" style="border-radius: 40px;">
+                        <div class="card-body" style="padding: 30px;">
+                            <h5 class="card-title fs-4 text fw-bold" style="padding-top: 10px; padding-bottom: 10px;">
+                                <i class="fa-solid fa-code-merge text-white fa-xl"></i>
+                                About Me
+                            </h5>
+                            <p class="card-text">
+                                Hello, I'm Seniatical or Isa.<br><br>
+                                I am a student from the UK, currently doing A-Levels in Math, Computer Science and Physics! I started programming over 3 years ago and can fluently write in both Python and C++.
+                                <br><br>
+                                I am the founder of Mecha Karen, a discord bot with its own 
+                                <a href="https://api.mechakaren.xyz">API</a>, 
+                                <a href="https://docs.mechakaren.xyz">Documentation</a> and 
+                                <a href="https://github.com/Mecha-Karen">Organisation</a>. 
+                                I also maintain the
+                                <a href="https://github.com/Mecha-Karen/Cake">Cake</a>
+                                repository, which is an object-oriented maths library.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-7" style="padding-top: 10px;">
+                    <div class="card text-white bg-dark" style="border-radius: 40px;">
+                        <div class="card-body" style="padding: 30px;">
+                            <h5 class="card-title fs-4 text fw-bold" style="padding-top: 10px; padding-bottom: 10px;">
+                                <i class="fa-solid fa-code-commit text-white fa-xl"></i>
+                                Experiences
+                            </h5>
+                            <p class="card-text">
+                                I mostly specialise with the backend region of things as my design aspect isn't the best.
+                                Many of my jobs that are given to me are mostly Python related, but I have created a few C++ backends before! 
+                                In terms of Databases I can use both SQL and NoSQL. 
+                                Some of the things I love making the most include:
+                                
+                                <ul>
+                                    <li>API's</li>
+                                    <li>Networks</li>
+                                    <li>Websites</li>
+                                    <li>Libraries</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="row justify-content-center" style="padding-bottom: 10px; padding-top: 20vh;" id="contributions">
+                <h2 class="text text-white fw-bolder text-center" style="padding-bottom: 10px; padding-top: 10px;">
+                    My Works
+                </h2>
+
+                <h4 class="text text-white text-center" style="padding-bottom: 5px; padding-top: 10px;">Projects</h4>
+                
+                <div class="col-md-8">
+                    <div id="WorksCarousel" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+
+                        <!-- Inner -->
+                        <div class="carousel-inner py-4">
+                            <!-- Single item -->
+                            <div class="carousel-item active">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-4">
+                                            <div class="card bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Cake</h5>
+                                                    <p class="card-text">
+                                                        Cake is an object-oriented maths library, written in Python. This project was started in the 2021 Hacktoberfest.
+                                                    </p>
+                                                    <a href="https://github.com/Mecha-Karen/Cake" class="btn btn-primary">Visit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 d-none d-lg-block">
+                                            <div class="card bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Mecha Karen</h5>
+                                                    <p class="card-text">
+                                                        Mecha Karen is a discord-bot made for its own API and is full of features.
+                                                    </p>
+                                                    <a href="https://github.com/Seniatical/Mecha-Karen" class="btn btn-primary">Visit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 d-none d-lg-block">
+                                            <div class="card bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">IPC</h5>
+                                                    <p class="card-text">
+                                                        A simple networking module written in python and is currently used to interact between Server and Client setups through routing
+                                                    </p>
+                                                    <a href="https://github.com/Seniatical/IPC" class="btn btn-primary">Visit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Inner -->
+                    </div>
+                    <!-- Carousel wrapper -->
+                    </div>
+                </div>
+
+                <h4 class="text text-white text-center" style="padding-bottom: 5px; padding-top: 10px;">Contributions</h4>
+
+                <div class="col-md-8">
+                    <div id="WorksCarousel" class="carousel slide carousel-dark" data-mdb-ride="carousel">
+
+                        <!-- Inner -->
+                        <div class="carousel-inner py-4">
+                            <!-- Single item -->
+                            <div class="carousel-item active">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-4">
+                                            <div class="card bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">BEAM</h5>
+                                                    <p class="card-text">
+                                                        BEAM is a Brain scan Enhancer Assistive Model, which allows you to detect tumours.
+                                                    </p>
+                                                    <a href="https://github.com/y330/BEAM" class="btn btn-primary">Visit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 d-none d-lg-block">
+                                            <div class="card bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">PyPtero</h5>
+                                                    <p class="card-text">
+                                                        A simple API wrapper for the pterodactyl API, Implements OOP to simplify the user experience
+                                                    </p>
+                                                    <a href="https://github.com/Rapi-Dev/PyPtero" class="btn btn-primary">Visit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Inner -->
+                    </div>
+                    <!-- Carousel wrapper -->
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="row justify-content-center" style="padding-bottom: 20px;" id="tools">
+                <div class="col-md-7">
+                    <h3 class="text text-white fw-bold text-center">Languages</h3>
+                    <ul class="tool-area">
+                        <li class="tool"><i class="devicon-python-plain-wordmark"></i></li>
+                        <li class="tool"><i class="devicon-cplusplus-plain-wordmark"></i></li>
+                        <li class="tool"><i class="devicon-javascript-plain"></i></li>
+                        <li class="tool"><i class="devicon-html5-plain-wordmark"></i></li>
+                        <li class="tool"><i class="devicon-css3-plain-wordmark"></i></li>
+                        <li class="tool"><i class="devicon-bash-plain"></i></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-7">
+                    <h3 class="text text-white fw-bold text-center">Tools, Frameworks and Technologies</h3>
+                    <ul class="tool-area">
+                        <li class="tool"><i class="devicon-django-plain-wordmark"></i></li>
+                        <li class="tool"><i class="devicon-flask-original-wordmark"></i></li>
+                        <li class="tool"><i class="devicon-numpy-original-wordmark"></i></li>
+                        <li class="tool"><i class="devicon-pandas-original-wordmark"></i></li>
+                        <li class="tool"><i class="devicon-matlab-plain"></i></li>
+                        <li class="tool"><i class="devicon-mongodb-plain-wordmark"></i></li>
+                        <li class="tool"><i class="devicon-git-plain-wordmark"></i></li>
+                        <li class="tool"><i class="devicon-jetbrains-plain"></i></li>
+                        <li class="tool"><i class="devicon-vscode-plain"></i></li>
+                        <li class="tool"><i class="devicon-azure-plain-wordmark"></i></li>
+                        <li class="tool"><i class="devicon-amazonwebservices-plain-wordmark"></i></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <section class="footer mt-auto py-3 bg-dark" style="width: 100%;">
+            <div class="container">
+                <p class="text-center text-white text">Made with
+                    <i class="fa-solid fa-heart" style="color: rgb(255, 106, 255);"></i>
+                     by Seniatical
+                </p>
+            </div>
+        </section>
+
     </body>
+
+    <script src="https://unpkg.com/typeit@8.0.2/dist/index.umd.js"></script>
+    <script src="./js/typer.js"></script>
+
+    <script src="./js/particles.js"></script>
 </html>
